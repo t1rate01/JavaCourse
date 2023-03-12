@@ -7,7 +7,7 @@ This is a Spring boot Java project assignment for school course.
 I am attempting to use different methods diversily in the code, 
 some parts could be written in a more repetive way.
 
-In a nutshell: 
+### In a nutshell: 
 
 Includes a base class "Course", from which course Classes like "JavaCourse" and "PythonCourse" inherit from.
 Includes an interface "IActiveCourse" which is implemented also by "Course"-s child classes.
