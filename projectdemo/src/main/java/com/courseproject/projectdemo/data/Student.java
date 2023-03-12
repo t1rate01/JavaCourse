@@ -1,5 +1,7 @@
 package com.courseproject.projectdemo.data;
 
+
+// yksinkertainen student luokka, funktiot autogeneroitu
 public class Student {
     private int id_student;
     private String name_student;

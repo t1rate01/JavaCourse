@@ -2,6 +2,7 @@ package com.courseproject.projectdemo.data;
 import java.util.ArrayList;
 import java.util.List;
 
+// POHJA LUOKKA KURSSEILLE, KURSSIT CPP JAVA JA PYTHON PERIVÄT TÄSTÄ LUOKASTA
 
 public class Course {
     private int id_course;

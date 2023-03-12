@@ -27,6 +27,8 @@ public class CourseRestController {
     }
 
     // TÄHÄN KAIKKI REST CONTROLLERIT
+    // KÄYTTÄVÄÄ COURSESERVICE LUOKKAA
+    // JA KUTSUU SEN FUNKTIOITA
 
     @GetMapping("/courses")
     public List<Course> getCourses() {
@@ -46,8 +48,15 @@ public class CourseRestController {
     @GetMapping("/courses/{id_course}")
     public Course getCourse(@PathVariable int id_course) {
         return courseService.getCourse(id_course);
-    }
+    }  // tämä voisi Stringifunktiona olla järkevämpi ks seuraava kommentoitu mapping
 
+
+    //string muotoisena sama kuin edellinen funktio   HOX POLKU
+    @GetMapping("courses2/{id_course}")
+    public String getCourses(@PathVariable int id_course) {   
+        return courseService.getCourse2(id_course);
+    }
+ 
     @PostMapping("/students")
     public String postStudent(@RequestBody Student student) {
         courseService.newstudent(student);
