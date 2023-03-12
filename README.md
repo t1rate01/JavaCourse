@@ -1,6 +1,6 @@
 # JavaCourse - Spring Boot
 
-(https://github.com/t1rate01/JavaCourse/tree/main/projectdemo/src/main/java/com/courseproject/projectdemo "Shortcut to relevant part of the project")
+[Shortcut to relevant part](https://github.com/t1rate01/JavaCourse/tree/main/projectdemo/src/main/java/com/courseproject/projectdemo "Shortcut to relevant part of the project")
 
 This is a Spring boot Java project assignment for school course.
 
